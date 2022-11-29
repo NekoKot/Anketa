@@ -1,0 +1,136 @@
+body {
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  background-image: 
+  url(https://incrussia.ru/upload/iblock/93c/93cf9f31e52f44d50076f4fb9c077305.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+  color: #f3f3f3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ 
+#main {
+  background-image: linear-gradient( 115deg, rgba(3, 3, 70, 0.8), rgba(0, 0, 110, 0.7) );
+  opacity: 0.6;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+  
+#title {
+  text-align: center;
+  color: #f3f3f3;
+  font-weight: 100;
+  margin: 50px auto 0 auto;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 15px auto 20px auto;
+}
+ 
+#survey-form {
+  background-color: #1b1b32;
+  max-width: 700px;
+  border-radius: 5px;
+  margin: 30px auto;
+  display: block;
+  color:#f3f3f3;
+} 
+ 
+fieldset {
+  padding: 35px;
+  margin: 0;
+  border: none;
+  left: 0;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#dropdown-two {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  min-height: 35px;
+  margin: 10px 0 25px 0;
+  padding-left: 10px;
+  border: none;
+}
+
+span {
+  font-size: 13px;
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+#reccomend,
+#feature {
+  margin-top: 0;
+}
+
+input.inline {
+  min-height: 18px;
+  min-width: 18px;
+  align-items: center;
+  margin: 5px;
+}
+
+#feature {
+  margin-top: 30px;
+}
+
+#improved {
+  margin: 0 0 15px 0;
+}
+
+p#comments {
+  margin-top: 30px;
+}
+
+textarea {
+  width: 99%;
+  margin: 0;
+  padding: 15px 0 0 10px;
+  border: none;
+  font-size: 15px;
+}
+
+#submit {
+  background-color: #37af65;;
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 20px;
+}
+
+#submit:hover {
+  background-color: #1b5230;
+  cursor: pointer;
+}
